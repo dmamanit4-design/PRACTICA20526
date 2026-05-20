@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRACTICA</title>
+        <link rel="stylesheet" href="estilosjec1.css">
+</head>
+<body>
+    <SECtion>
+    <h1>SIMULADOR DE DE TRANSFERENCIA DE CALOR</h1>
+
+    </h1>
+<h2>
+    <label for="">Temperatura inicial</label>
+    <input type="number" id="To">
+    <label for="">Temperatura del entorno</label>
+    <input type="number" id="Ts">
+    <label for="">Constante</label>
+    <input type="number" id="k">
+    <label for="">Tiempo en horas</label>
+    <input type="number" id="t">
+    <button onclick="temp()">CALCULAR</button>
+</h2>    
+    
+ <div class="respuesta">
+    <h3 class="titulos">La temperatura final es: </h3>
+    <p id="res"></p>
+    </div>
+
+
+            <script src="ejec1.js"></script>
+</SECtion>
+<SECTION>
+     <h1>COMBINACIONES COMPLEJAS</h1>
+
+    </h1>
+     
+<h2>
+    <label for="">A</label>
+    <input type="number" id="n1">
+    <label for="">B</label>
+    <input type="number" id="n2">
+    <button onclick="comb()">COMBINANDO</button>
+</h2>    
+    
+ <div class="respuesta">
+    <h3 class="titulos">posibles combinaciones de A y B: </h3>
+    <p id="res"></p>
+    </div>
+
+
+            <script src="ejec2.js"></script>
+          
+</SECTION>
+</body>
+</html>
